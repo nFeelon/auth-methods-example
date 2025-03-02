@@ -99,11 +99,12 @@ auth.local/
 ## Установка и запуск
 
 1. Создать базу данных MySQL:
-   - Открыть PhpMyAdmin (http://localhost/phpmyadmin)
+   - Открыть PhpMyAdmin в OSPanel
    - Импортировать файл `database/init.sql`
    - База создастся автоматически с именем auth_example
 2. Разместить файлы в директории OpenServer
-3. Открыть в браузере http://auth.local
+3. Измените параметры соединения в `config/database.php`
+4. Открыть в браузере http://auth.local
 
 ## Тестирование
 
